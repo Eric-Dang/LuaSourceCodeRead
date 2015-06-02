@@ -1,3 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//	Created:	2015-6-2   17:21
+//	File Name:	ltablib.c
+//	Author:		Eric(沙鹰)
+//	PS:			如果发现说明错误，代码风格错误，逻辑错问题，设计问题，请告诉我。谢谢！
+//  Email:		frederick.dang@gmail.com
+//	Purpose:	
+//-------------------------------------------------------------------------------------------------
 /*
 ** $Id: ltablib.c,v 1.65.1.2 2014/05/07 16:32:55 roberto Exp $
 ** Library for Table Manipulation
@@ -248,7 +256,7 @@ static void auxsort (lua_State *L, int l, int u) {
 
 static int sort (lua_State *L) {
   int n = aux_getn(L, 1);
-  luaL_checkstack(L, 40, "");  /* assume array is smaller than 2^40 */
+  luaL_checkstack(L, 40, "");  /* assume array is smaller than 2^40 */ // TODO 为什么是2^40？？；
   if (!lua_isnoneornil(L, 2))  /* is there a 2nd argument? */
     luaL_checktype(L, 2, LUA_TFUNCTION);
   lua_settop(L, 2);  /* make sure there is two arguments */
