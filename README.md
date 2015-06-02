@@ -1,6 +1,6 @@
 # LuaSourceCodeRead
 
-LuaRead include 3 version, v5.1, v5.2.0, v5.2.4
+	源码阅读中，添加了一部分说明。
+	ReadTest工程用来做测试用的，可以忽略。
 
-Root Dir Lua is v5.2.0
 
