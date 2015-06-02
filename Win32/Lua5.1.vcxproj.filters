@@ -15,172 +15,172 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lgc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llex.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llimits.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmem.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lobject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lopcodes.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lparser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstate.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstring.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltable.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltm.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lua.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\luaconf.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lualib.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lundump.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lvm.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lzio.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lapi.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lauxlib.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lcode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldebug.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldo.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lfunc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="..\lua-5.1\src\ltm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lua.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\luac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lundump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lvm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lzio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lapi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lauxlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lbaselib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ldblib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ldebug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ldo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ldump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lfunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lgc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\linit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\liolib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\llex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lmathlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lmem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\loadlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lobject.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lopcodes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\loslib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lparser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lstring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\lstrlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ltable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1\src\ltablib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\linit.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\liolib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llex.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmathlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmem.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\loadlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lobject.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lopcodes.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\loslib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lparser.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstate.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstring.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstrlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltable.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltablib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltm.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lua.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\luac.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lundump.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lvm.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lzio.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\print.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lapi.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lauxlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lbaselib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lcode.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldblib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldebug.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldo.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldump.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lfunc.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lgc.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="..\lua-5.1\src\ltm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\luaconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lualib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lundump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lvm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lzio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lauxlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\ldebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\ldo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lgc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\llex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\llimits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lmem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lopcodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lparser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lstate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\lstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1\src\ltable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

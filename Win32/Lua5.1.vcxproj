@@ -10,6 +10,65 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lua-5.1\src\lapi.c" />
+    <ClCompile Include="..\lua-5.1\src\lauxlib.c" />
+    <ClCompile Include="..\lua-5.1\src\lbaselib.c" />
+    <ClCompile Include="..\lua-5.1\src\lcode.c" />
+    <ClCompile Include="..\lua-5.1\src\ldblib.c" />
+    <ClCompile Include="..\lua-5.1\src\ldebug.c" />
+    <ClCompile Include="..\lua-5.1\src\ldo.c" />
+    <ClCompile Include="..\lua-5.1\src\ldump.c" />
+    <ClCompile Include="..\lua-5.1\src\lfunc.c" />
+    <ClCompile Include="..\lua-5.1\src\lgc.c" />
+    <ClCompile Include="..\lua-5.1\src\linit.c" />
+    <ClCompile Include="..\lua-5.1\src\liolib.c" />
+    <ClCompile Include="..\lua-5.1\src\llex.c" />
+    <ClCompile Include="..\lua-5.1\src\lmathlib.c" />
+    <ClCompile Include="..\lua-5.1\src\lmem.c" />
+    <ClCompile Include="..\lua-5.1\src\loadlib.c" />
+    <ClCompile Include="..\lua-5.1\src\lobject.c" />
+    <ClCompile Include="..\lua-5.1\src\lopcodes.c" />
+    <ClCompile Include="..\lua-5.1\src\loslib.c" />
+    <ClCompile Include="..\lua-5.1\src\lparser.c" />
+    <ClCompile Include="..\lua-5.1\src\lstate.c" />
+    <ClCompile Include="..\lua-5.1\src\lstring.c" />
+    <ClCompile Include="..\lua-5.1\src\lstrlib.c" />
+    <ClCompile Include="..\lua-5.1\src\ltable.c" />
+    <ClCompile Include="..\lua-5.1\src\ltablib.c" />
+    <ClCompile Include="..\lua-5.1\src\ltm.c" />
+    <ClCompile Include="..\lua-5.1\src\lua.c" />
+    <ClCompile Include="..\lua-5.1\src\luac.c" />
+    <ClCompile Include="..\lua-5.1\src\lundump.c" />
+    <ClCompile Include="..\lua-5.1\src\lvm.c" />
+    <ClCompile Include="..\lua-5.1\src\lzio.c" />
+    <ClCompile Include="..\lua-5.1\src\print.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lua-5.1\src\lapi.h" />
+    <ClInclude Include="..\lua-5.1\src\lauxlib.h" />
+    <ClInclude Include="..\lua-5.1\src\lcode.h" />
+    <ClInclude Include="..\lua-5.1\src\ldebug.h" />
+    <ClInclude Include="..\lua-5.1\src\ldo.h" />
+    <ClInclude Include="..\lua-5.1\src\lfunc.h" />
+    <ClInclude Include="..\lua-5.1\src\lgc.h" />
+    <ClInclude Include="..\lua-5.1\src\llex.h" />
+    <ClInclude Include="..\lua-5.1\src\llimits.h" />
+    <ClInclude Include="..\lua-5.1\src\lmem.h" />
+    <ClInclude Include="..\lua-5.1\src\lobject.h" />
+    <ClInclude Include="..\lua-5.1\src\lopcodes.h" />
+    <ClInclude Include="..\lua-5.1\src\lparser.h" />
+    <ClInclude Include="..\lua-5.1\src\lstate.h" />
+    <ClInclude Include="..\lua-5.1\src\lstring.h" />
+    <ClInclude Include="..\lua-5.1\src\ltable.h" />
+    <ClInclude Include="..\lua-5.1\src\ltm.h" />
+    <ClInclude Include="..\lua-5.1\src\lua.h" />
+    <ClInclude Include="..\lua-5.1\src\luaconf.h" />
+    <ClInclude Include="..\lua-5.1\src\lualib.h" />
+    <ClInclude Include="..\lua-5.1\src\lundump.h" />
+    <ClInclude Include="..\lua-5.1\src\lvm.h" />
+    <ClInclude Include="..\lua-5.1\src\lzio.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B26678D0-3833-4599-801A-7122AAB53510}</ProjectGuid>
     <RootNamespace>Lua</RootNamespace>
@@ -65,65 +124,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lapi.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lauxlib.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lcode.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldebug.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldo.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lfunc.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lgc.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llex.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llimits.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmem.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lobject.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lopcodes.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lparser.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstate.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstring.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltable.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltm.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lua.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\luaconf.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lualib.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lundump.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lvm.h" />
-    <ClInclude Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lzio.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lapi.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lauxlib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lbaselib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lcode.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldblib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldebug.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldo.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ldump.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lfunc.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lgc.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\linit.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\liolib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\llex.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmathlib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lmem.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\loadlib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lobject.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lopcodes.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\loslib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lparser.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstate.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstring.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lstrlib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltable.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltablib.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\ltm.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lua.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\luac.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lundump.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lvm.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\lzio.c" />
-    <ClCompile Include="..\..\..\..\开发相关\基础\Lua\lua-5.1\src\print.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
