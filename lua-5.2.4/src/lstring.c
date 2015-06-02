@@ -1,3 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//	Created:	2015-6-2   14:39
+//	File Name:	lstring.c
+//	Author:		Eric(沙鹰)
+//	PS:			如果发现说明错误，代码风格错误，逻辑错问题，设计问题，请告诉我。谢谢！
+//  Email:		frederick.dang@gmail.com
+//	Purpose:	
+//-------------------------------------------------------------------------------------------------
 /*
 ** $Id: lstring.c,v 2.26.1.1 2013/04/12 18:48:47 roberto Exp $
 ** String table (keeps all strings handled by Lua)
@@ -68,6 +76,8 @@ void luaS_resize (lua_State *L, int newsize) {
   luaC_runtilstate(L, ~bitmask(GCSsweepstring));
   if (newsize > tb->size) {
     luaM_reallocvector(L, tb->hash, tb->size, newsize, GCObject *);
+	// ((tb->hash)=cast(GCObject * *, luaM_reallocv(L, tb->hash, tb->size, newsize, sizeof(GCObject *))))
+	// luaM_realloc_ (lua_State *L, tb->hash, tb->size, newsize);
     for (i = tb->size; i < newsize; i++) tb->hash[i] = NULL;
   }
   /* rehash */
@@ -99,6 +109,7 @@ static TString *createstrobj (lua_State *L, const char *str, size_t l,
                               int tag, unsigned int h, GCObject **list) {
   TString *ts;
   size_t totalsize;  /* total size of TString object */
+  // 申请的长度为l+1，最后补 '\0'
   totalsize = sizeof(TString) + ((l + 1) * sizeof(char));
   ts = &luaC_newobj(L, tag, totalsize, list, 0)->ts;
   ts->tsv.len = l;
