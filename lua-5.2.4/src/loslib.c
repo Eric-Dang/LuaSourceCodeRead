@@ -1,3 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//	Created:	2015-6-2   19:49
+//	File Name:	loslib.c
+//	Author:		Eric(沙鹰)
+//	PS:			如果发现说明错误，代码风格错误，逻辑错问题，设计问题，请告诉我。谢谢！
+//  Email:		frederick.dang@gmail.com
+//	Purpose:	
+//-------------------------------------------------------------------------------------------------
 /*
 ** $Id: loslib.c,v 1.40.1.1 2013/04/12 18:48:47 roberto Exp $
 ** Standard Operating System library
@@ -271,7 +279,7 @@ static int os_difftime (lua_State *L) {
 
 /* }====================================================== */
 
-
+// TODO 作用以及用法
 static int os_setlocale (lua_State *L) {
   static const int cat[] = {LC_ALL, LC_COLLATE, LC_CTYPE, LC_MONETARY,
                       LC_NUMERIC, LC_TIME};
