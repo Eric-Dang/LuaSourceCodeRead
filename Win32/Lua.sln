@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua5.2.0", "Lua5.2.0.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua5.1", "Lua5.1.vcxproj", "{B26678D0-3833-4599-801A-7122AAB53510}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadTest", "ReadTest.vcxproj", "{27E2DEA8-BF0D-4F70-BCF1-233C4EE2FC37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{B26678D0-3833-4599-801A-7122AAB53510}.Debug|Win32.Build.0 = Debug|Win32
 		{B26678D0-3833-4599-801A-7122AAB53510}.Release|Win32.ActiveCfg = Release|Win32
 		{B26678D0-3833-4599-801A-7122AAB53510}.Release|Win32.Build.0 = Release|Win32
+		{27E2DEA8-BF0D-4F70-BCF1-233C4EE2FC37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27E2DEA8-BF0D-4F70-BCF1-233C4EE2FC37}.Debug|Win32.Build.0 = Debug|Win32
+		{27E2DEA8-BF0D-4F70-BCF1-233C4EE2FC37}.Release|Win32.ActiveCfg = Release|Win32
+		{27E2DEA8-BF0D-4F70-BCF1-233C4EE2FC37}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -481,6 +481,7 @@ static int pmain (lua_State *L) {
 }
 
 
+#ifdef __COMPILE_LUA
 int main (int argc, char **argv) {
   int status, result;
   lua_State *L = luaL_newstate();  /* create state */
@@ -498,4 +499,5 @@ int main (int argc, char **argv) {
   lua_close(L);
   return (result && status == LUA_OK) ? EXIT_SUCCESS : EXIT_FAILURE;
 }
+#endif // __COMPILE_LUA
 

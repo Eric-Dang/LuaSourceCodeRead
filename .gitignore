@@ -37,6 +37,7 @@
 src/ipch
 exe/
 obj/
+Debug/
 
 # vi/vim .swp file
 *.swp

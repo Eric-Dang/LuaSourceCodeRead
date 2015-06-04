@@ -186,6 +186,7 @@ static int pmain(lua_State* L)
  return 0;
 }
 
+#ifndef __COMPILE_LUA
 int main(int argc, char* argv[])
 {
  lua_State* L;
@@ -201,6 +202,7 @@ int main(int argc, char* argv[])
  lua_close(L);
  return EXIT_SUCCESS;
 }
+#endif // !__COMPILE_LUA
 
 /*
 ** $Id: print.c,v 1.68 2011/09/30 10:21:20 lhf Exp $
