@@ -400,19 +400,30 @@ static int read_line (lua_State *L, FILE *f, int chop) {
 
 #define MAX_SIZE_T	(~(size_t)0)
 
+// TODO Read All 没看明白为什么只读取了一部分数据，lua的获得的却是全部的数据？ 这个是怎么处理的
 static void read_all (lua_State *L, FILE *f) {
   size_t rlen = LUAL_BUFFERSIZE;  /* how much to read in each cycle */
   luaL_Buffer b;
   luaL_buffinit(L, &b);
   for (;;) {
+	//printf("Read Len = [%d].\n", rlen);
     char *p = luaL_prepbuffsize(&b, rlen);
     size_t nr = fread(p, sizeof(char), rlen, f);
     luaL_addsize(&b, nr);
     if (nr < rlen) break;  /* eof? */
     else if (rlen <= (MAX_SIZE_T / 4))  /* avoid buffers too large */
       rlen *= 2;  /* double buffer size at each iteration */
+	//printf(" -- Read Len = [%d].\n", rlen);
+	//printf(" ---------------------------- \n");
   }
   luaL_pushresult(&b);  /* close buffer */
+
+  //printf("Read File Len = [%d].\n", ftell(f));
+  //fseek(f, 0, SEEK_END);
+  //printf("File Len = [%d].\n", ftell(f));
+  //printf(" ---------------------------- \n");
+  //printf("%s\n", b.initb);
+  //printf(" ---------------------------- \n");
 }
 
 

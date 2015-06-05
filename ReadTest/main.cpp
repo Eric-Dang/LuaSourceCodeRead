@@ -13,12 +13,13 @@
 
 #define IO_PREFIX	"_IO_"
 #define IO_INPUT	(IO_PREFIX "input")
+#define MAX_SIZE_T	((size_t)~0)
 
 
 int main()
 {
-	char* t = IO_INPUT;
-	printf("%s\n", IO_INPUT);
+	int  t = MAX_SIZE_T;
+	printf("%d\n", MAX_SIZE_T);
 	__FUN_PAUSE();
 	return 1;
 }
