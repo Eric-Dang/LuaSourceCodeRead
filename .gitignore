@@ -33,11 +33,12 @@
 *.suo
 *.user
 
-# Ŀ¼
+# vs gen dir
 src/ipch
 exe/
 obj/
 Debug/
+Release/
 
 # vi/vim .swp file
 *.swp
