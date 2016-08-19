@@ -15,11 +15,27 @@
 #define IO_INPUT	(IO_PREFIX "input")
 #define MAX_SIZE_T	((size_t)~0)
 
+#define SetConsoleAttr(ColorInfo)	CONSOLE_SCREEN_BUFFER_INFO info;\
+	GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &info); \
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), ColorInfo)
+
+#define RecoverConsoleAttr()		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), info.wAttributes)
+
+
 
 int main()
 {
-	int  t = MAX_SIZE_T;
-	printf("%d\n", MAX_SIZE_T);
+	// WORD ColorInfo = 0;	//black
+	// WORD ColorInfo = FOREGROUND_BLUE;	// blue
+	// WORD ColorInfo = FOREGROUND_GREEN; // green
+	// WORD ColorInfo = FOREGROUND_RED; // red
+	// WORD ColorInfo = FOREGROUND_BLUE | FOREGROUND_GREEN;	// cyan
+	// WORD ColorInfo = FOREGROUND_GREEN | FOREGROUND_RED; // yellow
+	// WORD ColorInfo = FOREGROUND_BLUE | FOREGROUND_RED; // Magenta
+	// WORD ColorInfo = FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED; // white
+
+
 	__FUN_PAUSE();
+
 	return 1;
 }
