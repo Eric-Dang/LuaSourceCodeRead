@@ -15,6 +15,8 @@
 
 #include "luaconf.h"
 
+// 方便编译luac和lua两种运行程序, __COMPILE_LUA 生成lua.exe
+#define  __COMPILE_LUA
 
 #define LUA_VERSION_MAJOR	"5"
 #define LUA_VERSION_MINOR	"3"
